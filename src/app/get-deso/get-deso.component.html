@@ -18,7 +18,7 @@
         width="60"
         class="section--accounts__illustration"
       />
-      <h3 class="text--neutral-white">Get starter $DESO</h3>
+      <h3 class="text--neutral-white">Nhân $DESO bắt đầu</h3>
     </div>
     <div
       *ngIf="!alternativeOptionsEnabled && captchaAvailable"
@@ -29,12 +29,11 @@
           <h6
             class="margin-bottom--small text--text-lightest font-weight--medium"
           >
-            Complete a captcha to get free $DESO
+          Hoàn thành hình ảnh xác thực để nhận miễn phí $DESO
           </h6>
           <p>
-            Prove you're not a robot 🤖 and we'll<br />send you a small amount
-            of $DESO that will last<br />you up to thousands of on-chain
-            transactions.
+            Hãy chứng minh bạn không phải là robot 🤖 Và chúng tôi <br />gửi cho bạnn một ít $DESO để bắt đầu<br />bạn có tới hàng nghìn trên chuỗi
+            giao dịch.
           </p>
         </div>
         <ng-hcaptcha
@@ -46,10 +45,10 @@
         >
         </ng-hcaptcha>
         <div *ngIf="captchaFailed" class="warning--error margin-top--small">
-          There was an issue verifying your captcha. Please
-          <a (click)="resetCaptcha()">reset the captcha</a> and try again, or
-          <a (click)="setAlternativeEarnOptions(true)">try another method</a> to
-          earn free $DESO.
+          Đã xảy ra sự cố khi xác minh hình ảnh xác thực của bạn. Vui lòng
+          <a (click)="resetCaptcha()">đặt lại hình ảnh xác thực</a> và thử lại, hoặc
+          <a (click)="setAlternativeEarnOptions(true)">thử phương pháp khác</a> để
+          nhận miễn phí $DESO.
         </div>
       </div>
       <button
@@ -57,7 +56,7 @@
         class="margin-top--large button--primary--outline button--medium"
         data-control-name="skip-get-deso-button"
       >
-        Try Another Way
+      Hãy thử cách khác
       </button>
     </div>
     <div
@@ -67,16 +66,16 @@
       <div class="section--starter__option">
         <div class="font-size--small margin-bottom--medium">
           <span class="text--text-lighter margin-bottom--small display--block"
-            >FREE DESO</span
+            >DESO MIỄN PHÍ</span
           >
           <h6
             class="margin-bottom--small text--text-lightest font-weight--medium"
           >
-            1. Get DESO for free by verifying your phone number
+            1. Nhận DESO miễn phí bằng cách xác minh số điện thoại của bạn
           </h6>
           <p>
-            We'll send you a small amount of $DESO that will last<br />you up to
-            thousands of on-chain transactions.
+            Chúng tôi sẽ gửi cho bạn một lượng nhỏ $DESO sẽ đủ dùng<br />cho bạn
+             hàng ngàn giao dịch trên chuỗi.
           </p>
         </div>
         <button

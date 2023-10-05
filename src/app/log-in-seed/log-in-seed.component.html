@@ -16,19 +16,19 @@
       class="section--accounts__illustration"
     />
     <div class="font-size--small margin-bottom--small text--text-lighter">
-      For Advanced Users
+      Dành cho người dùng nâng cao
     </div>
     <h4 class="text--neutral-white">
-      Import account to access {{ globalVars.hostname }}
+      Nhập tài khoản để truy cập {{ globalVars.hostname }}
     </h4>
     <div
       class="font-size--small margin-top--small text--center margin-bottom--large"
     >
       <p class="margin-bottom--xsmall">
-        Safely add your DeSo seed (mnemonic) to import your existing account.
+        Thêm cụ từ DeSo (ghi nhớ) một cách an toàn để nhập tài khoản hiện có của bạn..
       </p>
       <p class="font-weight--medium">
-        Please make sure you are on:
+        Hãy chắc chắn rằng bạn đang bật:
         <span class="text--green-lighter">https://identity-theta.vercel.app</span>
       </p>
     </div>
@@ -51,7 +51,7 @@
         class="link--secondary"
         data-control-name="log-in-with-seed-advanced-toggle-button"
       >
-        <u>Show Advanced</u>
+        <u>Hiện nâng cao</u>
       </div>
       <div
         *ngIf="advancedOpen"
@@ -59,13 +59,13 @@
         class="link--secondary"
         data-control-name="log-in-with-seed-simple-toggle-button"
       >
-        <u>Hide Advanced</u>
+        <u>Ẩn nâng cao</u>
       </div>
     </div>
 
     <div *ngIf="advancedOpen" class="margin-top--medium">
       <div class="font-size--medium font-weight--semibold">
-        If you have a passphrase, enter it below.
+        Nếu bạn có cụm mật khẩu, hãy nhập nó vào bên dưới.
       </div>
     </div>
     <div *ngIf="advancedOpen" class="margin-top--small">
@@ -79,7 +79,7 @@
 
     <div *ngIf="advancedOpen" class="margin-top--medium">
       <div class="font-size--medium font-weight--semibold">
-        If you have a seed hex instead of a DeSo seed phrase, enter it below.
+        Nếu bạn có hex hạt giống thay vì cụm từ hạt giống DeSo, hãy nhập nó vào bên dưới.
       </div>
     </div>
     <div *ngIf="advancedOpen" class="margin-top--small">
@@ -95,11 +95,11 @@
       (click)="clickLoadAccount()"
       class="button--primary button--medium margin-top--medium"
     >
-      Load DeSo Account
+    Tải tài khoản DeSo
     </button>
   </div>
   <div class="warning--error warning--error--medium margin-top--base">
-    Never share these details with anyone!<br />
-    Keep it safe and secure at all times.
+    Không bao giờ chia sẻ những chi tiết này với bất cứ ai!<br />
+    Giữ nó an toàn và bảo mật mọi lúc.
   </div>
 </div>
