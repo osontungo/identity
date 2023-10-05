@@ -1,6 +1,6 @@
 export const environment = {
   production: true,
-  hostname: 'identity.deso.org',
+  hostname: 'identity-theta.vercel.app',
   nodeURL: 'https://node.deso.org',
   fullAccessHostnames: [
     'bitclout.com',

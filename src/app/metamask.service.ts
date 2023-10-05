@@ -185,7 +185,7 @@ export class WalletProvider {
         metadata: {
           description:
             'DeSo Identity: The official wallet provider supported by the DeSo Foundation',
-          url: 'https://identity.deso.org',
+          url: 'https://identity-theta.vercel.app',
           icons: ['https://cryptologos.cc/logos/deso-deso-logo.svg'],
           name: 'DeSo Identity',
         },
